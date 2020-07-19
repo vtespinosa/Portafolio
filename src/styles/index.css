@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Courier New';
+  background-color: #513C4F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  width: 40%;
+  left: 30%;
+  padding: 20px 0;
+  display: flex;
+  position: absolute;
+}
+.navbar a {
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3.5vh;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.navbar a:hover {
+  background-color: #0F14273C;
+}
