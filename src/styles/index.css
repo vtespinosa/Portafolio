@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Courier New';
   background-color: #513C4F;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,10 +14,13 @@ code {
 
 .navbar {
   width: 40%;
-  left: 30%;
   padding: 20px 0;
   display: flex;
   position: absolute;
+  z-index: 99 !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 .navbar a {
   flex: 1;
