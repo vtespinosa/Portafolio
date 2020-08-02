@@ -4,6 +4,57 @@
 .Resume .space {
   height: 5vh;
 }
-.Resume h1 {
-  color: white;
+.flex-container {
+  display: flex;
+  padding: 5vh 5vw;
+}
+.flex-container .important-info {
+  flex: 1;
+  text-align: center;
+}
+.flex-container .important-info img {
+  width: 20vw;
+  border-radius: 50%;
+  border: 3px solid #DADADA;
+  box-shadow: -10px 10px 10px #0000003f;
+}
+.flex-container .important-info .data {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: #cecece;
+}
+.flex-container .important-info .data p {
+  margin-left: 10px;
+}
+.flex-container .important-info .data button {
+  margin: 5px auto;
+  padding: 10px 15px;
+  background: rgb(221,76,76);
+  background: linear-gradient(90deg, rgba(221,76,76,1) 0%, rgba(215,38,61,1) 100%); 
+  color: #DADADA;
+  border: none;
+  border-radius: 5px;
+}
+.flex-container .info {
+  flex: 3;
+  margin-left: 5vw;
+  text-align: justify;
+}
+.flex-container .info .section .header {
+  display: flex;
+  align-items: center;
+}
+.flex-container .info .section .header h2 {
+  margin-left: 20px;
+}
+.flex-container .info .section li {
+  margin: 10px 0;
+}
+.flex-container .info .section li .right-text {
+  float: right;
+}
+.flex-container .important-info .data button:hover {
+  box-shadow: -5px 5px 5px #0000003f;
 }

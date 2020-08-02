@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Courier New';
-  background-color: #513C4F;
+  background-color: #191C2C;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,5 +32,5 @@ code {
   border-radius: 15px;
 }
 .navbar a:hover {
-  background-color: #0F14273C;
+  background-color: #513C4F3C;
 }

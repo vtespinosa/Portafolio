@@ -23,12 +23,12 @@ ReactDOM.render(
     <Router>
       <div className="navbar">
           <Link className="nav-link" onClick={updateNavebar} style={{textDecoration: 'underline'}} to="/">ABOUT</Link>
-          <Link className="nav-link" onClick={updateNavebar} to="/portafolio">PORTAFOLIO</Link>
+          <Link className="nav-link" onClick={updateNavebar} to="/projects">PROJECTS</Link>
           <Link className="nav-link" onClick={updateNavebar} to="/resume">RESUME</Link>
       </div>
 
       <Switch>
-        <Route path="/portafolio">
+        <Route path="/projects">
           <Portafolio />
         </Route>
         <Route path="/resume">

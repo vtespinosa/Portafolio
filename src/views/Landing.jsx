@@ -26,6 +26,18 @@ function Landing() {
     document.getElementById('section-b').scrollIntoView({ behavior: "smooth" });
   }
 
+  function scrollContact() {
+    document.getElementById('section-c').scrollIntoView({ behavior: 'smooth' });
+  }
+
+  function openGithub() {
+    window.open('https://github.com/vtespinosa');
+  }
+
+  function openLinkedin() {
+    window.open('https://cl.linkedin.com/');
+  }
+
   return (
     <div className="Landing">
       <animated.section className="section-a" style={props}>
@@ -35,9 +47,9 @@ function Landing() {
           <p>Chilean based software engineering student looking for an opportunity to innovate and create new stuff.</p>
         </div>
         <div className="contact">
-          <a href="https://github.com/vtespinosa/"><img src={github} alt="Github"/></a>
-          <a href="/"><img src={mail} alt="Mail"/></a>
-          <a href="https://www.linkedin.com/uas/login?_l=es"><img src={linkedin} alt="Linkedin"/></a>
+          <button type="button" onClick={openGithub}><img src={github} alt="Github"/></button>
+          <button type="button" onClick={scrollContact}><img src={mail} alt="Mail"/></button>
+          <button type="button" onClick={openLinkedin}><img src={linkedin} alt="Linkedin"/></button>
         </div>
         <div className="down">
           <button type="button" onClick={scrollSkills}><img src={down} alt="icon"/></button>
@@ -88,23 +100,29 @@ function Landing() {
           </div>
         </div>
       </section>
-      <section className="section-c">
+      <section className="section-c" id="section-c">
         <h1>Contact</h1>
         <div className="contact-form">
+          <div className="flex-field">
+            <div className="field">
+              <p>NAME</p>
+              <input type="text"/>
+            </div>
+            <div className="field" id="mail">
+              <p>EMAIL</p>
+              <input type="email"/>
+            </div>
+          </div>
           <div className="field">
-            <p>Name</p>
+            <p>COMPANY</p>
             <input type="text"/>
           </div>
           <div className="field">
-            <p>Email</p>
-            <input type="text"/>
-          </div>
-          <div className="field">
-            <p>Message</p>
-            <input type="text"/>
+            <p>MESSAGE</p>
+            <textarea id="" cols="30" rows="10" />
           </div>
           <div className="submit">
-            <button type="button">Send</button>
+            <button type="button">SEND</button>
           </div>
         </div>
       </section>
