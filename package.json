@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vtespinosa.github.io/Portafolio",
   "name": "espinosa",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
     "react-spring": "^8.0.27"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
