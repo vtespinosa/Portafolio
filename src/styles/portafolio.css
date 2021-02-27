@@ -1,9 +1,117 @@
-.Portafolio {
-  padding: 40px;
+@media screen and (max-width: 800px) {
+  .Portafolio {
+    padding-top: 70px;
+  }
+
+  .projects-container {
+    width: 80%;
+  }
+  .projects-container .project {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .projects-container .project .logo-container {
+    height: 150px;
+  }
+  .projects-container .project .logo-container img {
+    width: 70%;
+  }
+  .projects-container .project .information .actions {
+    width: 100%;
+  }
+  .projects-container .project .information .actions a svg {
+    display: none;
+  }
 }
-.Portafolio .space {
-  height: 5vh;
+@media screen and (min-width: 800px) {
+  .Portafolio {
+    padding: 40px;
+    padding-top: 110px;
+  }
+
+  .projects-container {
+    width: 95%;
+  }
+  .projects-container .project {
+    width: 30%;
+    min-width: 350px;
+  }
+  .projects-container .project .logo-container {
+    height: 200px;
+  }
+  .projects-container .project .logo-container img {
+    width: 60%;
+  }
+  .projects-container .project .information .actions {
+    width: 85%;
+    min-width: 286px;
+  }
 }
-.Portafolio h1 {
-  color: white;
+
+.projects-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects-container .project {
+  position: relative;
+  padding: 0;
+}
+.projects-container .project .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+}
+.projects-container .project .information {
+  padding: 10px 20px;
+}
+.projects-container .project .information .tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects-container .project .information .tags .tag {
+  background-color: #506C64;
+  color: #F1F1F1;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px 7px;
+}
+.projects-container .project .information .description {
+  margin: 20px 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+.projects-container .project .information .actions {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.projects-container .project .information .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.projects-container .project .information .actions a svg {
+  margin-left: 10px;
+}
+
+.Mentorcheck {
+  background: rgb(0,0,0);
+  background: linear-gradient(38deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 100%);
+}
+.Grado {
+  background: rgb(11,14,24);
+  background: linear-gradient(38deg, rgba(11,14,24,1) 0%, rgba(62,71,102,1) 100%);
+  font-family: 'Anton', sans-serif;
+  font-size: 65px;
+  color: #F1F1F1;
+}
+.Larbos {
+  background: rgb(223,211,174);
+  background: linear-gradient(38deg, rgba(223,211,174,1) 0%, rgba(232,229,220,1) 100%);
 }

@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+  .Landing .section-a {
+    height: 65vh;
+  }
+  .Landing .section-a .space {
+    height: 31vh;
+  }
+  .Landing .section-a .down {
+    display: none;
+  }
+  .Landing .section-a h1 {
+    font-size: 35px;
+  }
+  .Landing .section-a .description {
+    width: 65%;
+    font-size: 12px;
+  }
+  .Landing .section-a .contact {
+    width: 40%;
+  }
+
+  .section-c {
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0, 50% 3%);
+  }
+  .section-c .contact-form .double-input {
+    flex-direction: column;
+  }
+}
