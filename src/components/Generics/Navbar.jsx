@@ -15,7 +15,7 @@ function Navbar() {
   }, [history]);
 
   useEffect(() => {
-    if (path === '/' || path === '/Portafolio') {
+    if (path === '/' || path === '/Portafolio/') {
       setColor('white');
     } else {
       setColor('black');

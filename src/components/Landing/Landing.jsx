@@ -28,7 +28,7 @@ function Landing() {
         <div className="landing text">
           <h1>VICENTE ESPINOSA</h1>
           <div className="description">
-            Chilean based software engineering student looking for an opportunity to innovate and create new stuff.
+            Chilean based software engineering student looking for an opportunity to innovate and allways learn something new.
           </div>
         </div>
 
