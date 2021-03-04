@@ -54,7 +54,7 @@ function Navbar() {
           <a href="https://github.com/vtespinosa" className="contact-item" target="_blank" rel="noopener noreferrer">
             <GitHub />
           </a>
-          <a href="https://cl.linkedin.com/" className="contact-item" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/vicente-espinosa-ba4738206/" className="contact-item" target="_blank" rel="noopener noreferrer">
             <LinkedIn />
           </a>
         </div>
