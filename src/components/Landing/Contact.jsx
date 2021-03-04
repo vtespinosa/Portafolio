@@ -24,7 +24,7 @@ function Contact() {
           className="message-alert"
           severity={success ? 'success' : 'error'}
           onClose={() => setAlert(false)}
-          style={{ display: alert ? 'inline' : 'none' }}
+          style={{ display: alert ? 'flex' : 'none' }}
         >
           {success ? 'Message Sent!' : 'Error sending mail'}
         </Alert>

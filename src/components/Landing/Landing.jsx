@@ -39,7 +39,7 @@ function Landing() {
           <button type="button" className="contact-item transparent-button" onClick={scrollContact}>
             <Mail />
           </button>
-          <a href="https://cl.linkedin.com/" className="contact-item" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/vicente-espinosa-ba4738206/" className="contact-item" target="_blank" rel="noopener noreferrer">
             <LinkedIn />
           </a>
         </div>
